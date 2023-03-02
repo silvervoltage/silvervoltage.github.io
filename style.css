@@ -59,6 +59,10 @@ body {
     line-height: 1.6;
 }
 
+html,body{
+    overflow-x: hidden;
+}
+
 section {
     padding: 5em 2em;
 }
@@ -286,6 +290,10 @@ header {
     .logo {
         display: none;
     }
+
+    .scroll-top {
+        display: none;
+    }
 }
 
 .home {
@@ -384,6 +392,7 @@ header {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
+    justify-content: center;
 }
 
 .service{
@@ -530,7 +539,7 @@ header {
     padding: 10px;
     border-radius: 50%;
     color: var(--bg-color);
-    background: var(--container-color); 
+    background: var(--container-color);
 }
 
 .social .bx:hover{
